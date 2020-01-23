@@ -16,9 +16,12 @@ class Triangle
     :equilateral
   end
  end 
+ 
+ def valid?
    
+ end 
    
-    class TriangleError < StandardError
+  class TriangleError < StandardError
     # triangle error code
   end   
 end
